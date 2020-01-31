@@ -1,0 +1,87 @@
+.navbar-expand-lg {
+	background-color: #343a40 !important;
+}
+
+a.navbar-brand {
+	color: #fff !important;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+li.nav-item > a {
+	color: #fff !important;
+}
+
+ul.navbar-right div.dropdown-menu {
+	margin-left: -32px !important;
+}
+
+.article-title {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.article-body {
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.article-actions {
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+}
+
+.description {
+	margin-top: 0;
+	border-bottom: 1px solid #eaeaea;	
+}
+
+.pagination > li.active > a {
+  z-index: 3;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.pagination > li > a {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.listing {
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+}
+
+.badge {
+	background-color: #CEF6F5;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.input_checkbox {
+	margin-left: 14px;	
+}
+
+.input_checkbox input {
+	width: auto !important;
+}
+
+.center {
+	text-align: center;
+}
+
+.main-body {
+	min-height: 485px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
