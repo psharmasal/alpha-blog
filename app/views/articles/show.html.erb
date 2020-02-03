@@ -6,6 +6,7 @@
 			<div class="row center">
 				<div class="col-md-4 offset-4">
 					<li>Created by:</li>
+					<li><%= link_to (image_tag(@article.user.profile_image.url, size: "100x100", class: "rounded-circle") if @article.user.profile_image?), user_path(@article.user) %></li>
 					<li class="article-title">
 						<%= link_to @article.user.name, user_path(@article.user) %>
 					</li>

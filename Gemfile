@@ -14,6 +14,9 @@ gem 'puma', '~> 4.1'
 gem 'will_paginate', '3.2.1'
 gem 'bootstrap-will_paginate', '1.0.0'
 
+gem 'carrierwave'
+gem 'mini_magick'
+
 gem 'bootstrap',  '~>4.4.1'
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
